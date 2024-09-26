@@ -29,9 +29,12 @@ const Hero = () => {
                         <a className="btn-bg py-[10px] font-bold px-[15px] w-[198px] h-[68px] rounded-[12px] text-[32px] flex items-center justify-center" href="">
                             تواصل معانا
                         </a>
-                        <a className="btn-border bg-transparent font-bold py-[10px] px-[15px] w-[198px] h-[68px] rounded-[12px] text-[28px] flex items-center justify-center" href="">
-                            شاهد اعمالنا
-                        </a>
+                        <div className='relative flex items-center'>
+                            <img className="absolute top-0 right-0" src="/btn-border.svg" alt="" />
+                            <a className=" bg-transparent font-bold py-[10px] px-[15px] w-[198px] h-[68px] rounded-[12px] text-[28px] flex items-center justify-center" href="">
+                                شاهد اعمالنا
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="transform scale-x-[-1]">
