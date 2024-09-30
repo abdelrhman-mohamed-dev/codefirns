@@ -2,7 +2,7 @@ import ScrollReveal from "../ScrollRevial"
 
 const Team = () => {
     return (
-        <div className='relative mt-28 px-2 md:p-28 overflow-hidden'>
+        <div className='relative mt-28 px-2 md:p-16 overflow-hidden'>
             <ScrollReveal>
 
                 <div className='h-full md:h-[606px] rounded-[20px] md:rounded-[50px] w-full relative p-5 '>
