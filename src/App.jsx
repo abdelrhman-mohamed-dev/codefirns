@@ -12,7 +12,7 @@ import Remark from './components/Remark/Remark';
 
 export default function App() {
   return (
-    <>
+    <div className='w-full overflow-hidden'>
       <Hero />
       <About />
       <LogoSection />
@@ -23,6 +23,6 @@ export default function App() {
       <Team />
       <Footer />
       <Remark />
-    </>
+    </div>
   )
 }
