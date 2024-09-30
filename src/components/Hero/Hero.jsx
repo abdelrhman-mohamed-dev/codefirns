@@ -42,11 +42,11 @@ const Hero = () => {
                     <div className="max-sm:text-center md:pr-20 mt-8 md:mt-20">
                         <img className='mb-4 max-sm:mx-auto' src="/stars.svg" alt="" />
                         <div className="flex gap-1 items-center justify-center md:justify-start">
-                            <h1 className=" text-[30px] md:text-[48px] font-[700]">شركه كوديفرنس</h1>
+                            <h1 className=" text-[30px] md:text-[48px] font-[700]">{"شركة أي شيفت"}</h1>
                             <Trinagle />
                         </div>
                         <h2 className="text-[20px] md:text-[32px]">حيث تتحول الأفكار إلى <span className="text-grad text-[20px] md:text-[32px]">حلول برمجية متكاملة</span></h2>
-                        <p className="relative text-[16px] md:text-[24px] mt-8 md:mt-0 font-normal md:mt-12 text-gray-300 md:w-[490px]">مرحبا بك في كوديفرنس! نحن نؤمن بأن البرمجة هي مفتاح المستقبل</p>
+                        <p className="relative text-[16px] md:text-[24px] mt-8  font-normal md:mt-12 text-gray-300 md:w-[490px]">{"مرحبا بك في أي شيفت! نحن نؤمن بأن البرمجة هي مفتاح المستقبل"}</p>
                         <div className="w-full flex items-center md:justify-start justify-center gap-5 mt-8">
                             <a className="btn-bg w-[150px] py-[14px] md:py-[10px]  font-bold px-[15px] md:w-[198px] md:h-[68px] rounded-[12px] md:text-[32px] flex items-center justify-center" href="">
                                 تواصل معانا

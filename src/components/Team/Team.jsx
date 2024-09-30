@@ -12,7 +12,7 @@ const Team = () => {
                         <h2 className='text-[32px] md:text-[38px] font-bold mt-1'>{"فريق"}
                             <span className='inline-flex text-color-grad'>{"نا"}</span>
                         </h2>
-                        <p className='text-[16px] md:text-[18px] text-[#999999] md:w-[790px] text-center mt-3'>{"فريقنا هو قلب كوديفرنس. نحن مجموعة متنوعة من المحترفين المبدعين الذين يجمعون بين المهارات التقنية العالية والابتكار في التفكير"}</p>
+                        <p className='text-[16px] md:text-[18px] text-[#999999] md:w-[790px] text-center mt-3'>{"فريقنا هو قلب أي شيفت. نحن مجموعة متنوعة من المحترفين المبدعين الذين يجمعون بين المهارات التقنية العالية والابتكار في التفكير"}</p>
                         <div className='relative flex flex-col items-center md:flex-row mt-4 gap-5 md:gap-20'>
                             <ScrollReveal>
 

@@ -13,7 +13,7 @@ const About = () => {
                         <div className="">
                             <img src="/starts-2.svg" alt="" />
                             <h2 className="font-[700] text-[30px] md:text-[48px] md:w-[495px]"> البرامج ولغات<br />
-                                البرمجة في <span className="text-[#FFA84B]">كود</span>يفرنس</h2>
+                                البرمجة في <span className="inline-flex text-[#FFA84B]">{"أي"}</span>{"شيفت"}</h2>
                         </div>
                     </ScrollReveal>
                     <ScrollReveal direction="left">
