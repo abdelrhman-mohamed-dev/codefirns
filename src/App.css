@@ -20,9 +20,10 @@
 }
 
 .hero {
+  position: relative;
   background: url("/hero-bg.png") no-repeat;
   background-size: cover;
-  background-color: #fff !important;
+  background-color: #000 !important;
   height: 100%;
   width: 100%;
 }
@@ -86,9 +87,10 @@
 }
 .brand-name {
   width: 100%;
-  font-family: "Poppins";
-  font-size: 48px;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
   line-height: 150%;
   margin-left: 15px;
 }
@@ -119,7 +121,8 @@
 }
 .contact {
   display: flex;
-  width: 832px;
+  width: 100%;
+  max-width: 832px;
   height: 86px;
   padding: 14px;
   justify-content: space-between;
@@ -163,4 +166,22 @@
   border-radius: 8px;
   border: 1px solid var(--Grey-15, #262626);
   background: var(--Grey-08, #141414);
+}
+
+.teams-border-stroke {
+  border: 4px solid var(--stroke, #262626);
+  background: #000;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    height: 60px;
+    padding: 5px;
+  }
+  .contact-email-icon {
+    height: 50px;
+  }
+  .contact-send-btn {
+    padding: 10px 20px;
+  }
 }

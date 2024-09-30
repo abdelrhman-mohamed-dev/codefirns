@@ -22,7 +22,7 @@ const LogoSlider = () => {
     };
 
     return (
-        <div className="logo-slider mt-20">
+        <div className="logo-slider md:mt-20">
             <motion.div
                 className="brands-container"
                 variants={marqueeVariants}
@@ -30,7 +30,7 @@ const LogoSlider = () => {
             >
                 {[...brands, ...brands, ...brands].map((brand, index) => (
                     <div key={index} className="brand-item">
-                        <span className="brand-name">{brand}</span>
+                        <span className="brand-name text-[20px]">{brand}</span>
                         <img
                             src="/slider-star.svg" // Replace with your actual logo path
                             alt={`${brand} logo`}
@@ -40,7 +40,7 @@ const LogoSlider = () => {
                 ))}
                 {[...brands, ...brands, ...brands].map((brand, index) => (
                     <div key={index} className="brand-item">
-                        <span className="brand-name">{brand}</span>
+                        <span className="brand-name text-[20px]">{brand}</span>
                         <img
                             src="/slider-star.svg" // Replace with your actual logo path
                             alt={`${brand} logo`}
